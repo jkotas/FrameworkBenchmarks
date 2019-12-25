@@ -17,6 +17,7 @@ namespace PlatformBenchmarks
         {
             Args = args;
 
+Console.WriteLine("OS: " + System.Runtime.InteropServices.RuntimeInformation.OSDescription);
             Console.WriteLine(BenchmarkApplication.ApplicationName);
             Console.WriteLine(BenchmarkApplication.Paths.Plaintext);
             Console.WriteLine(BenchmarkApplication.Paths.Json);
